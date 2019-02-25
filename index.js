@@ -9,21 +9,21 @@
 //   }
 // }
 
-var amount = 0;
+// var amount = 0;
 
-function takeANumber(line) {
-      amount++;
-      line.push(amount);
-      return `You are number ${amount}.`
-  }
+// function takeANumber(line) {
+//       amount++;
+//       line.push(amount);
+//       return `You are number ${amount}.`
+//   }
   
-}
+// }
 
-takeANumber(line) -> 1 
-takeANumber(line) -> 2 
-nowServing(line) -> 1 
-nowServing(line) -> 2 
-takeANumber(line) -> 3
+// takeANumber(line) -> 1 
+// takeANumber(line) -> 2 
+// nowServing(line) -> 1 
+// nowServing(line) -> 2 
+// takeANumber(line) -> 3
 
 function nowServing(katsDeliLine) {
   if (katsDeliLine.length === 0) {
